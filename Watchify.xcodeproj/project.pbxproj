@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		CEF9E39C2941D3400086074F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9E39B2941D3400086074F /* AppDelegate.swift */; };
 		CEF9E39E2941D3400086074F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9E39D2941D3400086074F /* SceneDelegate.swift */; };
-		CEF9E3A02941D3400086074F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9E39F2941D3400086074F /* ViewController.swift */; };
-		CEF9E3A32941D3400086074F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF9E3A12941D3400086074F /* Main.storyboard */; };
+		CEF9E3A02941D3400086074F /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9E39F2941D3400086074F /* MainTabBarViewController.swift */; };
 		CEF9E3A52941D3410086074F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF9E3A42941D3410086074F /* Assets.xcassets */; };
 		CEF9E3A82941D3410086074F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF9E3A62941D3410086074F /* LaunchScreen.storyboard */; };
+		CEF9E3B12941D5D90086074F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9E3B02941D5D90086074F /* HomeViewController.swift */; };
+		CEF9E3B32941D5ED0086074F /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9E3B22941D5ED0086074F /* UpcomingViewController.swift */; };
+		CEF9E3B52941D62F0086074F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9E3B42941D62F0086074F /* SearchViewController.swift */; };
+		CEF9E3B72941D63E0086074F /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9E3B62941D63E0086074F /* DownloadsViewController.swift */; };
+		CEF9E3BE2941ED5D0086074F /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9E3BD2941ED5D0086074F /* CollectionViewTableViewCell.swift */; };
+		CEF9E3C029420D970086074F /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9E3BF29420D970086074F /* HeroHeaderUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CEF9E3982941D3400086074F /* Watchify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watchify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF9E39B2941D3400086074F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEF9E39D2941D3400086074F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CEF9E39F2941D3400086074F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CEF9E3A22941D3400086074F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEF9E39F2941D3400086074F /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		CEF9E3A42941D3410086074F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEF9E3A72941D3410086074F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEF9E3A92941D3410086074F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF9E3B02941D5D90086074F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CEF9E3B22941D5ED0086074F /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
+		CEF9E3B42941D62F0086074F /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		CEF9E3B62941D63E0086074F /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
+		CEF9E3BD2941ED5D0086074F /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		CEF9E3BF29420D970086074F /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,68 @@
 		CEF9E39A2941D3400086074F /* Watchify */ = {
 			isa = PBXGroup;
 			children = (
+				CEF9E3BC2941ED2E0086074F /* Manager */,
+				CEF9E3BB2941ED260086074F /* Resources */,
+				CEF9E3BA2941ED010086074F /* Model */,
+				CEF9E3B82941ECEE0086074F /* Views */,
+				CEF9E3B92941ECF60086074F /* ViewModels */,
+				CEF9E3AF2941D5BD0086074F /* Controllers */,
 				CEF9E39B2941D3400086074F /* AppDelegate.swift */,
 				CEF9E39D2941D3400086074F /* SceneDelegate.swift */,
-				CEF9E39F2941D3400086074F /* ViewController.swift */,
-				CEF9E3A12941D3400086074F /* Main.storyboard */,
+				CEF9E39F2941D3400086074F /* MainTabBarViewController.swift */,
 				CEF9E3A42941D3410086074F /* Assets.xcassets */,
 				CEF9E3A62941D3410086074F /* LaunchScreen.storyboard */,
 				CEF9E3A92941D3410086074F /* Info.plist */,
 			);
 			path = Watchify;
+			sourceTree = "<group>";
+		};
+		CEF9E3AF2941D5BD0086074F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEF9E3B02941D5D90086074F /* HomeViewController.swift */,
+				CEF9E3B22941D5ED0086074F /* UpcomingViewController.swift */,
+				CEF9E3B42941D62F0086074F /* SearchViewController.swift */,
+				CEF9E3B62941D63E0086074F /* DownloadsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CEF9E3B82941ECEE0086074F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEF9E3BD2941ED5D0086074F /* CollectionViewTableViewCell.swift */,
+				CEF9E3BF29420D970086074F /* HeroHeaderUIView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CEF9E3B92941ECF60086074F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CEF9E3BA2941ED010086074F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEF9E3BB2941ED260086074F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CEF9E3BC2941ED2E0086074F /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +190,6 @@
 			files = (
 				CEF9E3A82941D3410086074F /* LaunchScreen.storyboard in Resources */,
 				CEF9E3A52941D3410086074F /* Assets.xcassets in Resources */,
-				CEF9E3A32941D3400086074F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +200,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEF9E3A02941D3400086074F /* ViewController.swift in Sources */,
+				CEF9E3B52941D62F0086074F /* SearchViewController.swift in Sources */,
+				CEF9E3A02941D3400086074F /* MainTabBarViewController.swift in Sources */,
+				CEF9E3BE2941ED5D0086074F /* CollectionViewTableViewCell.swift in Sources */,
+				CEF9E3C029420D970086074F /* HeroHeaderUIView.swift in Sources */,
+				CEF9E3B72941D63E0086074F /* DownloadsViewController.swift in Sources */,
 				CEF9E39C2941D3400086074F /* AppDelegate.swift in Sources */,
 				CEF9E39E2941D3400086074F /* SceneDelegate.swift in Sources */,
+				CEF9E3B32941D5ED0086074F /* UpcomingViewController.swift in Sources */,
+				CEF9E3B12941D5D90086074F /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CEF9E3A12941D3400086074F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CEF9E3A22941D3400086074F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CEF9E3A62941D3410086074F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,7 +351,6 @@
 				INFOPLIST_FILE = Watchify/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,7 +377,6 @@
 				INFOPLIST_FILE = Watchify/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
