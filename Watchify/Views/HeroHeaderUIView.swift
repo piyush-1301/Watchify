@@ -56,6 +56,11 @@ class HeroHeaderUIView: UIView {
         applyConstraints()
     }
     
+    public func configure(with model: titleViewModel){
+        guard let url = URL(string: "https://image.tmdb.org/t/p/w500/\(model.posterUrl)") else {return}
+        heroImageView.sd_setImage(with: url)
+    }
+    
     private func applyConstraints() {
         let playButtonConstraints = [
             playButton.leadingAnchor.constraint(equalTo: leadingAnchor,constant: 60),

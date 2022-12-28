@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE53EEDD2946F2E800A649B5 /* HomeVC+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53EEDC2946F2E800A649B5 /* HomeVC+Ext.swift */; };
+		CE53EEE129472A2900A649B5 /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53EEE029472A2900A649B5 /* TitleCollectionViewCell.swift */; };
+		CE53EEE42947305A00A649B5 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = CE53EEE32947305A00A649B5 /* SDWebImage */; };
+		CE53EEE62947305A00A649B5 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CE53EEE52947305A00A649B5 /* SDWebImageMapKit */; };
+		CE53EEE8294857A400A649B5 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53EEE7294857A400A649B5 /* TitleTableViewCell.swift */; };
+		CE53EEEA29485BCB00A649B5 /* titleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53EEE929485BCB00A649B5 /* titleViewModel.swift */; };
+		CE53EEEC29486CB900A649B5 /* UpComingVC+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53EEEB29486CB900A649B5 /* UpComingVC+Ext.swift */; };
+		CE53EEEE29486CDC00A649B5 /* SearchVC+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53EEED29486CDC00A649B5 /* SearchVC+Ext.swift */; };
+		CE53EEF0294886A200A649B5 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53EEEF294886A200A649B5 /* SearchResultViewController.swift */; };
+		CE53EEF42948A8A300A649B5 /* SearchResultVC+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53EEF32948A8A300A649B5 /* SearchResultVC+Ext.swift */; };
+		CE53EEF62949CF6C00A649B5 /* YoutubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53EEF52949CF6C00A649B5 /* YoutubeSearchResponse.swift */; };
+		CE53EEF82949D59200A649B5 /* TitlePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53EEF72949D59200A649B5 /* TitlePreviewViewController.swift */; };
+		CE53EEFA2949E71900A649B5 /* TitlePreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53EEF92949E71900A649B5 /* TitlePreviewViewModel.swift */; };
+		CE53EEFD294F482100A649B5 /* WatchifyModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE53EEFB294F482100A649B5 /* WatchifyModel.xcdatamodeld */; };
+		CE53EEFF294F4A2D00A649B5 /* DataPersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53EEFE294F4A2D00A649B5 /* DataPersistenceManager.swift */; };
+		CE53EF01294F66ED00A649B5 /* DownloadVC+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53EF00294F66ED00A649B5 /* DownloadVC+Ext.swift */; };
 		CEF9E39C2941D3400086074F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9E39B2941D3400086074F /* AppDelegate.swift */; };
 		CEF9E39E2941D3400086074F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9E39D2941D3400086074F /* SceneDelegate.swift */; };
 		CEF9E3A02941D3400086074F /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9E39F2941D3400086074F /* MainTabBarViewController.swift */; };
@@ -18,9 +34,26 @@
 		CEF9E3B72941D63E0086074F /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9E3B62941D63E0086074F /* DownloadsViewController.swift */; };
 		CEF9E3BE2941ED5D0086074F /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9E3BD2941ED5D0086074F /* CollectionViewTableViewCell.swift */; };
 		CEF9E3C029420D970086074F /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9E3BF29420D970086074F /* HeroHeaderUIView.swift */; };
+		CEF9E3C22943347E0086074F /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9E3C12943347E0086074F /* APICaller.swift */; };
+		CEF9E3C429434C0D0086074F /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9E3C329434C0D0086074F /* Title.swift */; };
+		CEF9E3C629437D5A0086074F /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9E3C529437D5A0086074F /* extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE53EEDC2946F2E800A649B5 /* HomeVC+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeVC+Ext.swift"; sourceTree = "<group>"; };
+		CE53EEE029472A2900A649B5 /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE53EEE7294857A400A649B5 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		CE53EEE929485BCB00A649B5 /* titleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = titleViewModel.swift; sourceTree = "<group>"; };
+		CE53EEEB29486CB900A649B5 /* UpComingVC+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UpComingVC+Ext.swift"; sourceTree = "<group>"; };
+		CE53EEED29486CDC00A649B5 /* SearchVC+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchVC+Ext.swift"; sourceTree = "<group>"; };
+		CE53EEEF294886A200A649B5 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		CE53EEF32948A8A300A649B5 /* SearchResultVC+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchResultVC+Ext.swift"; sourceTree = "<group>"; };
+		CE53EEF52949CF6C00A649B5 /* YoutubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeSearchResponse.swift; sourceTree = "<group>"; };
+		CE53EEF72949D59200A649B5 /* TitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewController.swift; sourceTree = "<group>"; };
+		CE53EEF92949E71900A649B5 /* TitlePreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewModel.swift; sourceTree = "<group>"; };
+		CE53EEFC294F482100A649B5 /* WatchifyModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WatchifyModel.xcdatamodel; sourceTree = "<group>"; };
+		CE53EEFE294F4A2D00A649B5 /* DataPersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPersistenceManager.swift; sourceTree = "<group>"; };
+		CE53EF00294F66ED00A649B5 /* DownloadVC+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DownloadVC+Ext.swift"; sourceTree = "<group>"; };
 		CEF9E3982941D3400086074F /* Watchify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watchify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF9E39B2941D3400086074F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEF9E39D2941D3400086074F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +67,9 @@
 		CEF9E3B62941D63E0086074F /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 		CEF9E3BD2941ED5D0086074F /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		CEF9E3BF29420D970086074F /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
+		CEF9E3C12943347E0086074F /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		CEF9E3C329434C0D0086074F /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		CEF9E3C529437D5A0086074F /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,12 +77,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE53EEE62947305A00A649B5 /* SDWebImageMapKit in Frameworks */,
+				CE53EEE42947305A00A649B5 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE53EEF1294886A700A649B5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CEF9E3B02941D5D90086074F /* HomeViewController.swift */,
+				CEF9E3B22941D5ED0086074F /* UpcomingViewController.swift */,
+				CEF9E3B42941D62F0086074F /* SearchViewController.swift */,
+				CEF9E3B62941D63E0086074F /* DownloadsViewController.swift */,
+				CE53EEDC2946F2E800A649B5 /* HomeVC+Ext.swift */,
+				CE53EEEB29486CB900A649B5 /* UpComingVC+Ext.swift */,
+				CE53EEED29486CDC00A649B5 /* SearchVC+Ext.swift */,
+				CE53EF00294F66ED00A649B5 /* DownloadVC+Ext.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		CE53EEF2294886BA00A649B5 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				CE53EEEF294886A200A649B5 /* SearchResultViewController.swift */,
+				CE53EEF32948A8A300A649B5 /* SearchResultVC+Ext.swift */,
+				CE53EEF72949D59200A649B5 /* TitlePreviewViewController.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
 		CEF9E38F2941D3400086074F = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +141,7 @@
 				CEF9E3A42941D3410086074F /* Assets.xcassets */,
 				CEF9E3A62941D3410086074F /* LaunchScreen.storyboard */,
 				CEF9E3A92941D3410086074F /* Info.plist */,
+				CE53EEFB294F482100A649B5 /* WatchifyModel.xcdatamodeld */,
 			);
 			path = Watchify;
 			sourceTree = "<group>";
@@ -85,10 +149,8 @@
 		CEF9E3AF2941D5BD0086074F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				CEF9E3B02941D5D90086074F /* HomeViewController.swift */,
-				CEF9E3B22941D5ED0086074F /* UpcomingViewController.swift */,
-				CEF9E3B42941D62F0086074F /* SearchViewController.swift */,
-				CEF9E3B62941D63E0086074F /* DownloadsViewController.swift */,
+				CE53EEF2294886BA00A649B5 /* General */,
+				CE53EEF1294886A700A649B5 /* Core */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -98,6 +160,8 @@
 			children = (
 				CEF9E3BD2941ED5D0086074F /* CollectionViewTableViewCell.swift */,
 				CEF9E3BF29420D970086074F /* HeroHeaderUIView.swift */,
+				CE53EEE029472A2900A649B5 /* TitleCollectionViewCell.swift */,
+				CE53EEE7294857A400A649B5 /* TitleTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -105,6 +169,8 @@
 		CEF9E3B92941ECF60086074F /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				CE53EEE929485BCB00A649B5 /* titleViewModel.swift */,
+				CE53EEF92949E71900A649B5 /* TitlePreviewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -112,6 +178,8 @@
 		CEF9E3BA2941ED010086074F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CEF9E3C329434C0D0086074F /* Title.swift */,
+				CE53EEF52949CF6C00A649B5 /* YoutubeSearchResponse.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -119,6 +187,7 @@
 		CEF9E3BB2941ED260086074F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CEF9E3C529437D5A0086074F /* extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -126,6 +195,8 @@
 		CEF9E3BC2941ED2E0086074F /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				CEF9E3C12943347E0086074F /* APICaller.swift */,
+				CE53EEFE294F4A2D00A649B5 /* DataPersistenceManager.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -146,6 +217,10 @@
 			dependencies = (
 			);
 			name = Watchify;
+			packageProductDependencies = (
+				CE53EEE32947305A00A649B5 /* SDWebImage */,
+				CE53EEE52947305A00A649B5 /* SDWebImageMapKit */,
+			);
 			productName = Watchify;
 			productReference = CEF9E3982941D3400086074F /* Watchify.app */;
 			productType = "com.apple.product-type.application";
@@ -174,6 +249,9 @@
 				Base,
 			);
 			mainGroup = CEF9E38F2941D3400086074F;
+			packageReferences = (
+				CE53EEE22947305A00A649B5 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = CEF9E3992941D3400086074F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -201,14 +279,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEF9E3B52941D62F0086074F /* SearchViewController.swift in Sources */,
+				CE53EEF42948A8A300A649B5 /* SearchResultVC+Ext.swift in Sources */,
+				CE53EF01294F66ED00A649B5 /* DownloadVC+Ext.swift in Sources */,
+				CE53EEFD294F482100A649B5 /* WatchifyModel.xcdatamodeld in Sources */,
 				CEF9E3A02941D3400086074F /* MainTabBarViewController.swift in Sources */,
 				CEF9E3BE2941ED5D0086074F /* CollectionViewTableViewCell.swift in Sources */,
+				CEF9E3C22943347E0086074F /* APICaller.swift in Sources */,
 				CEF9E3C029420D970086074F /* HeroHeaderUIView.swift in Sources */,
 				CEF9E3B72941D63E0086074F /* DownloadsViewController.swift in Sources */,
+				CE53EEDD2946F2E800A649B5 /* HomeVC+Ext.swift in Sources */,
+				CE53EEE129472A2900A649B5 /* TitleCollectionViewCell.swift in Sources */,
 				CEF9E39C2941D3400086074F /* AppDelegate.swift in Sources */,
+				CE53EEF82949D59200A649B5 /* TitlePreviewViewController.swift in Sources */,
 				CEF9E39E2941D3400086074F /* SceneDelegate.swift in Sources */,
+				CE53EEE8294857A400A649B5 /* TitleTableViewCell.swift in Sources */,
+				CE53EEF62949CF6C00A649B5 /* YoutubeSearchResponse.swift in Sources */,
 				CEF9E3B32941D5ED0086074F /* UpcomingViewController.swift in Sources */,
+				CE53EEEE29486CDC00A649B5 /* SearchVC+Ext.swift in Sources */,
+				CEF9E3C429434C0D0086074F /* Title.swift in Sources */,
+				CE53EEEA29485BCB00A649B5 /* titleViewModel.swift in Sources */,
+				CE53EEFF294F4A2D00A649B5 /* DataPersistenceManager.swift in Sources */,
+				CE53EEEC29486CB900A649B5 /* UpComingVC+Ext.swift in Sources */,
 				CEF9E3B12941D5D90086074F /* HomeViewController.swift in Sources */,
+				CE53EEFA2949E71900A649B5 /* TitlePreviewViewModel.swift in Sources */,
+				CE53EEF0294886A200A649B5 /* SearchResultViewController.swift in Sources */,
+				CEF9E3C629437D5A0086074F /* extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +509,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE53EEE22947305A00A649B5 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE53EEE32947305A00A649B5 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE53EEE22947305A00A649B5 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		CE53EEE52947305A00A649B5 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE53EEE22947305A00A649B5 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		CE53EEFB294F482100A649B5 /* WatchifyModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE53EEFC294F482100A649B5 /* WatchifyModel.xcdatamodel */,
+			);
+			currentVersion = CE53EEFC294F482100A649B5 /* WatchifyModel.xcdatamodel */;
+			path = WatchifyModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CEF9E3902941D3400086074F /* Project object */;
 }
